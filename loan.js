@@ -4,7 +4,7 @@ var calculate = function()
  var floatmonthlypayment, intloanterm, floattotalcost;
  floatmonthlypayment = parseFloat ($("monthly_payment").value);
  intloanterm = parseInt ($("loan_length").value);
- floattotalcost = parseFloat (floatmonthlypayment + intloanterm);
+ floattotalcost = parseFloat (floatmonthlypayment*intloanterm);
  $("total_cost").value = floattotalcost;
  }
  window.onload = function () 
