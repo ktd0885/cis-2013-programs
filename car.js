@@ -5,7 +5,7 @@ var $ = function (id) { return document.getElementById(id); }
      floatmonthlypayment = parseFloat ($("monthly_payment").value);
      intloanterm = parseInt ($("loan_length").value);
      floattotalcost = parseFloat (floatmonthlypayment + intloanterm);
-     $("total_cost").value = floattoalcost;
+     $("total_cost").value = floattotalcost;
  }
  window.onload = function () 
 {
