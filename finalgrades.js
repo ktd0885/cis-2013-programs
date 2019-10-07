@@ -18,18 +18,17 @@ floatTotalPts = parseFloat (floatHwPts + floatMidPts + floatFinPts);
 
 intGradeOption = parseInt (prompt("Please enter \"1\" for pass/fail or \"2\" for letter grade (A-F):"));
 
-if (intGradeOption===1)
+(intGradeOption===1)
 {
     if (floatTotalPts >= 80)
-    (
+    {
       stringFinalGrade = "Pass";
-    )
-    
+    }
        else
-       (
+       {
         stringFinalGrade ="Fail";
-       )
-}
-
+       }
+       
 alert("Your final grade is: " +stringFinalGrade);
+}
        
