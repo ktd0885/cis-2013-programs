@@ -5,12 +5,12 @@ var $ = function (id)
 
 var calculate_click = function () 
 {
-    var floatHwPts, floatMidPts, floatFinPts, intGradeOption, stringFinalGrade
+    var floatHwPts, floatMidPts, floatFinPts, intGradeOption, stringFinalGrade;
 
     floatHwPts = parseFloat($("hw_pts").value);
     floatMidPts = parseFloat ($("Mid_Pts").value);
     floatFinPts = parseFloat ($("Fin_Pts").value);
-    intGradeOption = parseInt ($("Grade_Option").value);
+    intGradeOption = parseInt ($("1_or_2").value);
 
 (intGradeOption===1)
 {
