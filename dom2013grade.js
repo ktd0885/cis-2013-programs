@@ -8,8 +8,9 @@ var calculate_click = function ()
     var floatHwPts, floatMidPts, floatFinPts, intGradeOption, stringFinalGrade
 
     floatHwPts = parseFloat($("hw_pts").value);
-    floatMidtermPts = parseFloat ($("Mid_Pts").value);
-    floatFinalPts = parseFloat ($("Fin_Pts").value);
+    floatMidPts = parseFloat ($("Mid_Pts").value);
+    floatFinPts = parseFloat ($("Fin_Pts").value);
+    floatFinPts = parseFloat (floatHwPts + floatMidPts);
     intGradeOption = parseInt ($("Grade_Option").value);
 
 (intGradeOption===1)
@@ -31,4 +32,4 @@ window.onload = function ()
     $("hw_pts").focus(); //puts the cursor on the first DOM text input box
     $("Mid_Pts").value = "";
     $("Fin_Pts").value = "";
-};      
+};
