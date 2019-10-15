@@ -5,14 +5,13 @@ var $ = function (id)
 
 var calculate_click = function () 
 {
-    var floatHwPts, floatMidPts, floatFinPts, intGradeOption, stringFinalGrade,floatTotalPts;
+    var floatHwPts, floatMidPts, floatFinPts, intGradeOption, stringFinalGrade;
 
     floatHwPts = parseFloat($("hw_pts").value);
     floatMidPts = parseFloat ($("Mid_Pts").value);
     floatFinPts = parseFloat ($("Fin_Pts").value);
-    intGradeOption = parseInt ($("grade_option).value);
-    floatTotalPts = parseFloat (floatHwPts + floatMidPts + floatFinPts);
-    $("Final_Grade").value);
+    intGradeOption = parseInt ($("grade_option).value);                          
+    $("Final_Grade").value) = stringFinalGrade;                               
 
 (intGradeOption===1)
 {
@@ -34,3 +33,7 @@ window.onload = function ()
     $("Mid_Pts").value = "";
     $("Fin_Pts").value = "";
 }
+    string getFinalGrade(){
+        return FinalGrade;
+    }
+
