@@ -13,7 +13,7 @@ var calculate_click = function ()
     intGradeOption = parseInt ($("grade_option).value);
    floatTotalPts = parseFloat (floatHwPts + floatMidPts + floatFinPts);
     $("final_grade").value = stringFinalGrade;
-
+}
 (intGradeOption===1)
 {
     if (floatTotalPts >= 80)
