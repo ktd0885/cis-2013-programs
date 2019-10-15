@@ -33,8 +33,4 @@ window.onload = function ()
     $("hw_pts").focus(); //puts the cursor on the first DOM text input box
     $("Mid_Pts").value = "";
     $("Fin_Pts").value = "";
-}
-    string getFinalGrade(){
-        return FinalGrade;
-    };
-
+};
