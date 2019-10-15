@@ -31,6 +31,6 @@ window.onload = function ()
     $("final_grade").value = stringFinalGrade; //blanks the final grade text box upon page load
     $("calculate").onclick = calculate_click; //activates main method when the button is clicked 
     $("hw_pts").focus(); //puts the cursor on the first DOM text input box
-    $("Mid_Pts").value = "";
-    $("Fin_Pts").value = "";
+    $("mid_Pts").value = "";
+    $("fin_Pts").value = "";
 };
