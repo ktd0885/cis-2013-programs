@@ -10,7 +10,7 @@ var calculate_click = function ()
     floatHwPts = parseFloat($("hw_pts").value);
     floatMidPts = parseFloat ($("Mid_Pts").value);
     floatFinPts = parseFloat ($("Fin_Pts").value);
-    intGradeOption = parseInt ($("1_or_2").value);
+    intGradeOption = parseInt ($("grade_option).value);
     floatTotalPts = parseFloat (floatHwPts + floatMidPts + floatFinPts);
     $("Total_Pts").value);
 
