@@ -28,6 +28,7 @@ if (intGradeOption===1)
     {
             stringFinalGrade ="Fail";
     }
+}    
 else
 {
    if (floatTotalPts >=90)
@@ -58,5 +59,7 @@ else
                   }
                }   
          }
-   }
+    }
+}    
+   
 alert("Your final grade is:"+stringFinalGrade);
