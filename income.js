@@ -1,7 +1,7 @@
 var $ = function (id) 
 {
     return document.getElementById(id);
-}
+};
 
 var calculateIncome = function () 
 {
@@ -34,14 +34,14 @@ var calculateIncome = function ()
     	}
         else
         {
-   		if (floatAnnualIncome >= 30000 && floatAnnualIncome <= 75000)
-        {
-            floatTaxRate = 0.10;
-   		}
-   		else
-   		{
-   			floatTaxRate = 0.20;
-   		}
+   		    if (floatAnnualIncome >= 30000 && floatAnnualIncome <= 75000)
+            {
+                floatTaxRate = 0.10;
+   		    }
+   		    else
+   		    {
+   			    floatTaxRate = 0.20;
+   		    }
 	    }
     }
 
