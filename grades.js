@@ -16,18 +16,18 @@ floatFinPts = parseFloat (prompt("Please enter final exam points (0-35):"));
 
 floatTotalPts = parseFloat (floatHwPts + floatMidPts + floatFinPts);
 
-intGradeOption = parseInt (prompt("Please enter \"1\" for pass/fail:"));
+intGradeOption = parseInt (prompt("Please enter \"1\" for pass/fail or \"2\" for letter grade:"));
 
-(intGradeOption===1)
+if (intGradeOption===1)
 {
     if (floatTotalPts >= 80)
     {
-      stringFinalGrade = "Pass";
+            stringFinalGrade = "Pass";
     }
-       else
-       {
-        stringFinalGrade ="Fail";
-       }
+    else
+    {
+            stringFinalGrade ="Fail";
+    }
 }    
 else
 {
@@ -63,5 +63,5 @@ else
 }
        
 alert("Your final grade is: " +stringFinalGrade);
-}
+
        
