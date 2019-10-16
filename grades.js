@@ -28,6 +28,39 @@ intGradeOption = parseInt (prompt("Please enter \"1\" for pass/fail:"));
        {
         stringFinalGrade ="Fail";
        }
+}    
+else
+{
+   if (floatTotalPts >=90)
+   {
+         stringFinalGrade = "A";
+   }
+   else
+   {  
+         if(floatTotalPts>=80&&floatTotalPts<90)
+         {
+               stringFinalGrade = "B";
+         }
+         else
+         {
+               if (floatTotalPts >=70 && floatTotalPts <80)
+               {
+                  stringFinalGrade = "C";
+               }
+               else
+               {
+                  if (floatTotalPts >=60&&floatTotalPts<70)
+                  {
+                     stringFinalGrade = "D";
+                  }
+                  else
+                  {
+                     stringFinalGrade = "F";
+                  }
+               }   
+         }
+   }
+}
        
 alert("Your final grade is: " +stringFinalGrade);
 }
