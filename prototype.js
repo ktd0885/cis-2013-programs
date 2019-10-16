@@ -1,7 +1,7 @@
 var $ = function (id) 
 {
     return document.getElementById(id);
-}
+};
 
 var calculate_click = function () 
 {
@@ -24,7 +24,7 @@ var calculate_click = function ()
        {
         stringFinalGrade ="Fail";
        
-}
+};
 
 window.onload = function () 
 {
