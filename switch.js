@@ -51,4 +51,3 @@ else
    }
 }   
    
-alert("Your final grade is:"+stringFinalGrade);
