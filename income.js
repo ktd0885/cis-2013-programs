@@ -57,8 +57,8 @@ var calculateIncome = function ()
 
 window.onload = function () 
 {
-//    $("annualIncome").value = "";
-//    $("age").value = "";
+    $("annualIncome").value = "";
+    $("age").value = "";
     $("annualTax").value = "";
     $("calculate").onclick = calculateIncome;
     $("annualIncome").focus();
