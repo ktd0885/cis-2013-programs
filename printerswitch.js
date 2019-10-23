@@ -27,8 +27,8 @@ var fixPrinter = function() {
     //enter your code here and don't forget to send the output to the DOM
     switch (true)
     {
-        case boolPrinting === true && boolRedLight === true && boolRecognised === true:
-             stringOutput = stringMessage2  + "\n" + stringMessage3 +"\n" + stringMessage4;
+        case boolPrinting == true && boolRedLight == true && boolRecognised == true:
+             stringOutput = stringMessage2  + " " + stringMessage3 +" " + stringMessage4;
              break;
         case boolPrinting === true && boolRedLight === true && boolRecognised === false:  
             stringOutput = stringMessage4 + "\n" + stringMessage5;
@@ -54,10 +54,10 @@ var fixPrinter = function() {
                    
     }
     $("output").value = stringOutput;
-};
+    };
    
 
 
 window.onload = function () {
     $("troubleshoot").onclick = fixPrinter;
-};
+    };
