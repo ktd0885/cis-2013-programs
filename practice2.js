@@ -28,7 +28,7 @@ if (intGradeOption===1)
     {
         stringFinalGrade = "Fail";
     }
-else
+if (intGradeOption ===2)
 {
     if (floatTotalPts >=90)
     {
