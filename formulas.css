@@ -1,13 +1,13 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #666666;
+    background: #CD5C5C;
 }
 
 #content {
     width: 600px;
     margin: 10px auto;
     padding: 5px 20px;
-    background: #FFFFFF;
+    background: #FA8072;
     border: 1px solid #000000;
 }
 
@@ -16,7 +16,7 @@ h1 {
 }
 
 p {
-	color: purple;
+	color: white;
 	font-weight: bold;
 	text-align: center;
 }
