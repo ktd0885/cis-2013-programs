@@ -10,7 +10,7 @@ var $ = function (id)
 var generate = function () 
 {
 	var intCount = parseInt($("total_fib").value);  //gets user input from the DOM
-  if (isNaN (intCount) || intCount <2 || intCount >100)
+  if (isNaN (intCount) || intCount < 2 || intCount > 100)
   {
     alert ("Sorry, please only enter a number (100 or less)");
     $("total_fib").value = "";
@@ -23,7 +23,7 @@ var generate = function ()
 	var i=0;  // sets the first number in the Fibonacci series to 0
 	var j=1;  //sets the second number in the Fibonacci series to 1
 	var k;    //k is calculated by adding i+j and represents the next Fibonacci number
-	var stringOutput = "0 1 ";//initialize the Fibonacci series output to include the first two numbers
+	var stringOutput = "0 1";//initialize the Fibonacci series output to include the first two numbers
   
 var i = 0; //set first number of Fib
 var j = 1; //set second number of Fib
