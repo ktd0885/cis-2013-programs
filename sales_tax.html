@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Sales Tax Calculator</title>
+		<link rel="stylesheet" href="sales_tax.css">
+		<script src="sales_tax.js"></script>
+	</head>
+	<body>
+		<main>
+			<h1>Enter the values below and click "Calculate"</h1>
+			<form id="sales_form" name="sales_form" action="calculate.html"  onsubmit="return validateSalesForm()"   method="get">
+				<label for="subtotal">Subtotal:</label>
+				<input type="number" id="subtotal" min = "0" step = "0.01" required />
+				<br>
+
+				<label for="taxRate">Tax Rate:</label>
+				<input type="number" id="taxRate" min = "0" max = "100" step = "0.01" required/>
+                                                                                                                                                                                                            placeholder="Re-enter the address" required>
+
+				<br>
+
+				<label for="shippingCharges">Shipping Charges:</label>
+				<input type="number" id="shippingCharges" min = "0" step = "0.01" required />
+				<br>
+				
+                <label for="salesTax">Sales Tax:</label>
+				<input type="text" id="salesTax" disabled = "disabled" />
+				<br>
+				<label for="total">Total:</label>
+                <input type="text" id = "total" name = "total" disabled = "disabled" />
+                <br/>
+				
+                <label>&nbsp;</label>
+				<input type="submit" id="calculateFields" value="Calculate">
+				<br/>
+			</form>
+		</main>
+    </div>
+</body
+</html>
