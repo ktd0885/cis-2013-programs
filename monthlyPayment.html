@@ -1,0 +1,47 @@
+
+<!DOCTYPE HTML>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Monthly Payment Cost</title>
+	<link rel="stylesheet" type="text/css" href="monthlyPayment.css" />
+	<script type="text/javascript" src="monthlyPayment.js"></script>
+</head>
+
+<body>
+	<div id="content">
+		<h1>Monthly Payment Calculator</h1>
+		<p>
+			Enter the values requested below and click "Calculate".
+		</p>
+		
+		<label for="fullName">Full Name:  </label>
+		<input type="text" id="full_name" />
+		<br />
+
+		<label for="loanAmount">Loan Amount:  $</label>
+		<input type="number" id="loan_amount" min = "0" required/>
+		<br />
+
+		<label for="loanTerm">Total Months of Loan:</label>
+		<input type="number" id="loan_time" min="0" required/>
+		<br />
+		
+		<label for="interestRate">Interest Rate: </label>
+		<input type="number" id="interest_rate" min="0" max="100" required/>
+		<span id = <"interestRatePercent"> &nbsp; % </span>
+		<br />
+        
+        
+        <label>&nbsp;</label>
+		<input type="button" id="calc" value="Calculate" />
+		<br />
+
+		<label for="monthlyCost">Total Monthly Cost:  $</label>
+		<input type="number" id="monthlyCost" disabled="disabled" />
+		<br><br/>
+		
+	
+		<img class = "displayed" src="https://calculator.me/img/managing-debt-load.png" alt="organized"  height="450" width="600">
+	</div>
+</body>
+</html>
