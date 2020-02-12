@@ -1,0 +1,43 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Monthly Payment Calculator</title>
+		<link rel="stylesheet" href="monthly_payment.css">
+		<script src="monthly_payment.js"></script>
+	</head>
+	<body>
+		<div id="content"> 
+			<h1>Enter the values requested below and click "Calculate"</h1>
+			<form id="payment_form" name="payment_form" action = "#" onsubmit="return calcPMT();"  method="POST">
+				<label for="full_name">Full Name: </label>
+				<input type="text" id="full_name" name="full_name" required>
+				<br>
+
+				<label for="loan_amount">Loan Amount: $</label>
+				<input type="number" id="loan_amount" min ="0" step="0.01" required/>                                                                                                                                                                                       
+				<br>
+
+				<label for="loan_months"> Total Months of Loan:</label>
+				<input type="number" id="loan_months" min="0" step="0.01" required/>
+				<br>
+				
+				<label for="interest_rate">Interest Rate: </label>
+				<input type="number" id="interest_rate" min ="0" max="100" step="0.01" required/>
+				<span id = <"interestRate"> &nbsp; % </span>
+				<br>
+               
+			
+				<label for="monthly_cost"> Monthly Payment: $</label>
+				<input type = "text" id ="monthly_cost" disabled="disabled"
+				<br>
+				 
+				 <label>&nbsp;</label>
+				<input type="submit" id="calculatePaymentForm" value="Calculate"/>
+				<br>
+	
+				<img class = "displayed" src="https://calculator.me/img/managing-debt-load.png" alt="organized"  height="450" width="600">
+
+			</form>
+		</main>
+	</body>
+</html>
