@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    <title></title>
+</head>
+<body>
+<script>
+    var lowerBound = 0,
+    var upperBound = 0,
+    var resultStr="";
+for(; ; ) {
+  lowerBound = parseInt (prompt("Error: Enter lower bound and integer>0"));
+if(!(isNaN (lowerBound)) && (lowerBound>0))break;
+isNaN (lowerBound);
+upperBound = parseInt (prompt("Error: Enter upper bound and integer>0"));
+if(!isNaN (upperBound)) && (lowerBound < upperBound))break;
+isNaN(upperBound);
+for (var i=lowerBound; i<upperBound;i++)
+{
+  resultStr+=i+": "+string.fromCharCode(i) +"\n";
+}//for i
+alert(resultStr);
+</script>         
+</body>
+</html>
